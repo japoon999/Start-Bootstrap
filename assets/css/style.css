@@ -1,0 +1,387 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: math;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/bg-masthead.jpg');
+    background-position: center;
+    background-size: cover;
+    opacity: 75%;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    padding: 0px 100px;
+    position: fixed;
+
+
+
+}
+
+.nav-menu a h1 {
+    font-size: 20px;
+
+    color: black;
+}
+
+
+
+.nav-menu nav ul {
+    list-style: none;
+    display: flex;
+
+
+
+}
+
+.nav-menu nav li {
+    margin-right: 10px;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.nav-menu a {
+    text-decoration: none;
+
+}
+
+.nav-menu nav .li1 {
+    color: tomato;
+
+}
+
+.nav-menu :hover {
+    color: rgb(248, 133, 113);
+    transition: 0.7s all;
+}
+
+.text {
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80%
+}
+
+.text h2,
+h5 {
+    color: white;
+    margin-bottom: 1rem;
+
+
+}
+
+.text h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 200px;
+    font-weight: bold;
+
+
+}
+
+.text h5 {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+    color: burlywood;
+
+}
+
+.xett {
+    width: 70px;
+    border-color: tomato;
+
+
+}
+
+
+
+.btn1 {
+    background-color: tomato;
+    border-radius: 25px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    text-decoration: none;
+    width: 220px;
+    color: white;
+    height: 50px;
+    text-align: center;
+    padding: 15px;
+    margin-top: 50px;
+    transition: 1.5s all;
+
+}
+
+.btn1:hover {
+    background-color: rgb(65, 6, 6);
+}
+
+
+.section1 {
+    background-color: tomato;
+    width: 100%;
+    height: 100vh;
+}
+
+.box1 {
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80%
+}
+
+.box1 h3 {
+    color: white;
+    font-size: 40px;
+    margin-top: 200px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.xett2 {
+    width: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.box1 h4 {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.btn2 {
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 1.5s all;
+    border-color: tomato;
+}
+
+.btn2:hover {
+    background-color: rgb(185, 179, 179);
+}
+
+
+
+
+
+.icon {
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    padding: 120px 0;
+}
+
+
+
+
+.head {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    font-size: 30px;
+
+}
+
+.head .xett3 {
+    width: 50px;
+    height: 2px;
+    background-color: tomato;
+    padding-top: 0.1rem;
+    margin-top: 15px;
+}
+
+.icons {
+    padding: 100px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+
+
+}
+
+
+.icon1 i {
+    color: tomato;
+    font-size: 45px;
+    margin-top: 10px;
+    padding: 35px;
+
+
+
+}
+
+.icon1 h3 {
+    font-size: 25px;
+    padding: 15px;
+}
+
+
+.icon1 p {
+    color: #6c757d;
+}
+
+
+
+.galery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.galery .foto {
+    width: 33.3%;
+}
+
+
+.galery .foto img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+
+
+.number {
+    width: 100%;
+    height: 150vh;
+    background-color: white;
+
+
+}
+
+.contacttext {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 100px 0px;
+
+}
+
+.contacttext h2 {
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contactxett {
+
+    width: 55px;
+    margin: 25px 650px;
+    padding: 1px;
+    border-color: tomato;
+    background-color: tomato;
+}
+
+
+.contacttext h5 {
+
+    color: #6c757d;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+
+.input {
+    margin-top: 20px;
+
+}
+
+input {
+    width: 545px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 15px;
+    padding-left: 15px;
+    border: 3px solid #acabab;
+}
+
+
+
+
+
+input:focus {
+    border: 5px solid red;
+}
+
+
+textarea {
+    border: 3px solid #ccc;
+
+}
+
+
+textarea:focus {
+    border: 5px solid red;
+}
+
+.submitBtn {
+
+    margin-top: 20px;
+}
+
+
+input[type=submit] {
+
+    background-color: tomato;
+    border: none;
+    color: beige;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.tel i {
+    font-size: 40px;
+    color: #6c757d;
+    margin: 30px 0px;
+}
+
+.tel span {
+    font-size: 20px;
+
+}
+
+
+
+
+
+footer {
+    background-color: #0000000f;
+    width: 100%;
+    height: 15vh;
+    text-align: center;
+    color: #6c757d;
+    padding: 45px;
+    font-family: 'Times New Roman', Times, serif;
+}
